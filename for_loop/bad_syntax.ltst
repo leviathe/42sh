@@ -1,0 +1,8 @@
+for ; do echo tot; done
+for i in ;
+for i in $(seq 40); do
+for i in do echo lol; done
+for i in do echo lol ; do echo lol; done
+for i in 1 ; 2 ; 3 ; 4; do echo toto; done
+for a b a b in 1 2 3 4; do echo totol; done
+for erw; do eywgwuyfvwryuivwryu done

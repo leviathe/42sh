@@ -1,0 +1,5 @@
+echo $(echo toto);
+$(echo echo toto tata titi);
+a=1; $(a=2;b=1;); echo $a $b
+$(e);
+echo $(ls)

@@ -1,0 +1,4 @@
+export toto; env | grep toto
+export toto=42; unset toto; env | grep toto;
+toto=53; export toto=42; echo $toto; env | grep toto; unset toto; echo $toto; env | grep toto
+export toto=42; env | grep toto; unset toto; toto=42; env | grep toto;

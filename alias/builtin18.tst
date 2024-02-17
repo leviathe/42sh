@@ -1,0 +1,2 @@
+alias qwertyuioopasdfghjkklzxcvbnnm=echo;
+qwertyuioopasdfghjkklzxcvbnnm koukou

@@ -1,0 +1,1 @@
+if true && echo printed ; then echo Success; else echo fail; fi

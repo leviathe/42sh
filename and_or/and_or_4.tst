@@ -1,0 +1,1 @@
+if true && false && true && false && false || te; then echo Success; else echo fail; fi

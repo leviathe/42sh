@@ -1,0 +1,3 @@
+{ echo a; }
+{ echo a b c; echo d e f; }
+{ ls; echo rwghugbi rhbgwuio; }
