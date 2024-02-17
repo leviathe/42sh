@@ -1,0 +1,6 @@
+echo "$(echo test test '42s h      is    not    good')"
+echo "`echo test test '42s h      is    not    good'`"
+echo "`echo test \`echo test\` '42s h      is    not    good'`"
+echo "$(echo a `echo b $(echo 42sh \`echo THis is not fun\`)`)"
+echo $(echo a `echo b $(echo 42sh \`echo THis is not fun\`)`)
+echo $(echo a `echo b $(echo 42sh `echo THis is not fun`)`)

@@ -1,0 +1,4 @@
+echo -e lala\nla\n\twjuo
+echo -e cou"\t"cou
+echo -e cou"\\t"cou
+echo -e "\ncou\\\ncou"

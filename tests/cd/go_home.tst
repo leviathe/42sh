@@ -1,0 +1,2 @@
+cd
+env -i pwd

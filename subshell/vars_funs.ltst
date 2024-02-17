@@ -1,2 +1,0 @@
-a=1; echo $a; ( echo $a; a=42; a () { echo toto; }; echo $a; a; ); echo $a; a;
-#a=azk; ( echo $a; a=tui; echo $a; ( echo toto; a=zorg; echo $a;); echo $a;); echo $a;

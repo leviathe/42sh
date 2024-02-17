@@ -1,9 +1,0 @@
-"a"=2; echo $a
-a="2"; echo $a
-a="toto toto"; echo $a
-a="toto toto"; echo "$a"
-"b c d"=toto; echo "$b c d"
-"a=2"; echo $a
-abcd="a   b   c"; echo $abcd
-abcd="a   b   c"; echo "$abcd"
-a="a  b"; echo $a; echo "$a"; echo '$a'

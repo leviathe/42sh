@@ -1,7 +1,0 @@
-case esac
-case abc in toto; esac
-'case' toto in toto) esac
-case toto in toto ) esac
-case abc) echo toto;; esac
-case noesac in el) echo toto;;
-case no in DSEMI) echo nodesemi lol) echo toto;; esac

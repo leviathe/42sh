@@ -1,0 +1,4 @@
+fun () { echo toto; echo lol; ls; }; fun; echo toto;
+ls; fun () { echo lol; ls; }; fun; fun; echo lol;
+fun1 () { lol; echo toto; oof; }; fun2 () { fun1 a b c d e; echo lol; }; fun1; fun2; fun2; fun1;
+fun1 () { echo toto; }; fun2 () { echo tata; }; fun1; fun2; unset -f fun2; fun2;

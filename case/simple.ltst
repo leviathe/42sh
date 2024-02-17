@@ -1,5 +1,0 @@
-case a in a) echo a;; b) echo b;; c) echo c;; *) echo oof;; esac
-case b in a) echo a;; b) echo b;; c) echo c;; *) echo oof;; esac
-case c in a) echo a;; b) echo b;; c) echo c;; *) echo oof;; esac
-case d in a) echo a;; b) echo b;; c) echo c;; *) echo oof;; esac
-case d in a) echo a;; b) echo b;; c) echo c;; esac

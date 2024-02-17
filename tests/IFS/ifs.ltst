@@ -1,0 +1,10 @@
+a="ab cd_ef fg_hi" ; for i in $a; do echo $i; done
+IFS=""; a="ab cd_ef fg_hi" ; for i in $a; do echo $i; done
+IFS=";"; a="ab cd_ef fg_hi" ; for i in $a; do echo $i; done
+IFS=" "; a="ab cd_ef fg_hi" ; for i in $a; do echo $i; done
+IFS="_"; a="ab cd_ef fg_hi" ; for i in $a; do echo $i; done
+IFS="_ "; a="ab cd_ef fg_hi" ; for i in $a; do echo $i; done
+IFS="_"; a="12_34__5__"; echo $a
+IFS="_"; a="12_34__5__"; echo "$a"
+IFS="_"; a="12_34__5__"; for i in $a; do echo $i; done
+IFS="_"; a="12_34__5__"; for i in "$a"; do echo $i; done

@@ -1,3 +1,0 @@
-( fun () { echo toto;}; fun  ); fun
-fun () { echo tata; }; ( fun; fun () { echo toto;}; fun  ); fun
-fun () { fun2 () { echo loulou coucou;}; echo tata; }; fun; ( fun; fun () { echo toto;}; fun  ); fun

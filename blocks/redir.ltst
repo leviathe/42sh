@@ -1,4 +1,0 @@
-{ echo a; } > .aux_1
-{ echo a; } 2> .aux_1
-{ echo a; echo b; echo c; ls; } > .aux_1
-{ echo a; echo b  c d; { echo f g } > .aux_1 } > .aux_2

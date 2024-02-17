@@ -1,0 +1,7 @@
+echo -e '\\\\\\\\'
+echo -E '\\\\\\\\'
+echo -e '\n \n \n \n\n\n'
+echo -E '\n \n \n \n\n\n'
+echo -e '\t \t \t \t\t\t'
+echo -E '\t \t \t \t\t\t'
+echo -En "\t\$\\\n" ahh '\\\\'

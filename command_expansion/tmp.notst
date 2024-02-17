@@ -1,1 +1,0 @@
-echo $(echo a `echo b $(echo 42sh \`echo THis is not fun\`)`)

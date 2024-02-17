@@ -1,0 +1,5 @@
+a=1; echo $a
+a=2; echo $a; a=3; echo $a
+rhvgwe=rwyyu ; a=2; echo $rhvgwe $a
+a= b= c=; echo $a $b $c;
+abc=rghyuiwg; echo ${abc}

@@ -1,3 +1,0 @@
-'echo' truc
-'true'
-'false'

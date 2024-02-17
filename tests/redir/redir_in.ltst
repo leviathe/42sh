@@ -1,0 +1,2 @@
+grep t < redir_in.ltst
+wc -l < redir_in.ltst

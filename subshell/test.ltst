@@ -1,1 +1,0 @@
-(echo coucou; a=3; ( a=5; for i in $(seq $a); do echo $i; done ); echo $a ); echo $a

@@ -1,7 +1,0 @@
-toto=42; export toto; echo $toto;
-toto=42; export toto; env | grep toto
-toto=42; tata=53; export tata; env | grep tata
-export toto=42; env | grep toto
-toto=42; export toto=53; env | grep toto
-toto=42; export toto=53; echo $toto; env | grep toto; toto=49; echo $toto; env | grep
-a=1 b=2 export a; echo $a $b

@@ -1,2 +1,0 @@
-toto===D; export toto; env | grep toto
-export 42troubadours=oof; env | grep 42troubadours

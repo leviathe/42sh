@@ -1,6 +1,0 @@
-wd=42 ; echo \$wd
-wd=42 ; echo "$wd"
-d= ; echo $d
-e=pw"d" ; $e
-a==fez; echo $a
-a=+\\="yo"\$ ; echo $a

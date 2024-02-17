@@ -1,0 +1,5 @@
+echo toto;
+a=42
+fun () {
+    echo This is a function
+}

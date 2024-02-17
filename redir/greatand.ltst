@@ -1,3 +1,0 @@
-echo toto 1>&4
-ls 1>&-
-echo toto 2>&out.txt

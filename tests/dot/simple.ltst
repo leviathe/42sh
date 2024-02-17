@@ -1,0 +1,3 @@
+. ./tests/dot/simple.text; echo $a; fun;
+. ./tests/dot/unexistant.text;
+.

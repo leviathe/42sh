@@ -1,0 +1,12 @@
+echo -E 'a b c d ef \n g h \t ijk\tlmn\\\\o'
+echo -e 'a b c d ef \n g h \t ijk\tlmn\\\\o'
+echo -eE 'a b c d ef \n g h \t ijk\tlmn\\\\o'
+echo -eEe 'a b c d ef \n g h \t ijk\tlmn\\\\o'
+echo -n 'arouh arouh \n arouh'
+echo -e -x lololo
+echo -x 42sh is not good
+echo -e 42sh is (not) good
+echo -e '42\tsh'
+echo -e '42\nsh'
+echo -Een -E -e '42\tsh'
+echo -Een -E -e '42\nsh'

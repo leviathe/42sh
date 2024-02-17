@@ -1,2 +1,0 @@
-fun (
-) { echo body; }; fun

@@ -1,0 +1,2 @@
+echo toto >| .aux_1
+echo tata >| .aux_1

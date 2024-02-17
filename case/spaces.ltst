@@ -1,1 +1,0 @@
-a='a  b'; case $a in ab) echo No;; a b) echo Even less;; 'a  b') Would be good if it were;; *) Not a clue;; esac

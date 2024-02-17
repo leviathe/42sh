@@ -1,3 +1,0 @@
-a="a  b  c"; b=def$a; echo $b;
-a===D; echo $a;
-a='$b'; b=1; echo $a

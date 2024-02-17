@@ -1,2 +1,0 @@
-cd /
-env -i pwd

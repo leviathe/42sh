@@ -1,1 +1,0 @@
-export toto=42; ( echo $toto )
