@@ -1,0 +1,11 @@
+fun () { echo $*; }; fun a b c; fun "a     b  c" "e   y"; a=1; fun $a $a;
+fun () { echo $1 $3 $2; }; fun a c b d;
+fun () { echo $*; }; fun a c b d;
+fun () { echo $@; }; fun a c b d;
+fun () { echo $#; }; fun a c b d;
+fun () { echo $#; }; fun2 () { echo $#; fun a b c d e; echo $#; }; fun2 a b c; echo $#
+a="ab cd ef"; fun () { echo $1 $2 $3; }; fun $a
+a="ab cd ef"; fun () { for i in $@; do echo $i; done }; fun $a
+a="ab cd ef"; fun () { for i in $*; do echo $i; done }; fun $a
+a="ab cd ef"; fun () { for i in "$@"; do echo $i; done }; fun $a
+a="ab cd ef"; fun () { for i in "$*"; do echo $i; done }; fun $a

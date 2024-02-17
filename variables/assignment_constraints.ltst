@@ -1,0 +1,6 @@
+a=1; echo toto $a
+a=1 echo toto $a; echo toto $a;
+a=1 b=2 c=3 true; echo $a; echo $b; echo $c
+a=1 b=$a c=$b echo toto; echo $a $b $c
+a=1 b=$a c=$b; echo toto $a $b $c;
+a=1; a=2 b=$a; echo $b

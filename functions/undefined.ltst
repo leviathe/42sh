@@ -1,0 +1,4 @@
+if false; then fun () { echo toto;}; else echo Fail; fi; fun
+oof () { if false; then fun () { echo toto;}; else echo Fail; fi; }; fun
+oof () { if true; then fun () { echo toto;}; else echo Fail; fi; }; fun
+fun () { echo first; fun2 () { echo 'Still alive!';}; echo last; }; fun2; fun; fun2; unset -f fun2; fun2; fun; fun2;
