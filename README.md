@@ -1,1 +1,3 @@
 # 42SH
+## Build
+## Lauch
